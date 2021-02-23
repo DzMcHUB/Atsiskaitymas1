@@ -397,7 +397,7 @@ template {
 
 @media (max-width: 991px) {
   .footer-info__collum {
-    width: 240px;
+    width: 250px;
     margin: 0 auto 15px;
   }
   .footer-info__collum:last-child {
