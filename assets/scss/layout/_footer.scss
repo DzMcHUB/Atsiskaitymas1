@@ -1,0 +1,30 @@
+.footer-info {
+    display: flex;
+    border-top: 2px solid $black;
+    padding-top: 30px;
+    justify-content: space-between;
+    &__collum {
+        display: flex;
+        align-items: center;
+        &:last-child {
+            margin-right: 95px;
+        }
+    }
+    &__collum__img {
+        margin-right: 20px;
+    }
+    &__collum__text_info {
+        font-style: normal;
+        font-weight: bold;
+        font-size: rem(24);
+        line-height: rem(32);
+        color: $black;
+    }
+    &__collum__text_descr {
+        font-style: normal;
+        font-weight: normal;
+        font-size: rem(16);
+        line-height: rem(32);
+        color: rgba(51, 51, 51, 0.5);
+    }
+}

@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+    &__left {
+        margin-top: 65px;
+        width: calc(50% - 15px);
+    }
+    &__left_text {
+        margin-bottom: 35px;
+    }
+    &__left__text__top {
+        color: $orange;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: normal;
+        font-size: rem(19);
+        line-height: rem(32);
+        letter-spacing: rem(3);
+        margin: 0;
+    }
+    &__left__text__mid {
+        color: $darkGrey;
+        font-style: normal;
+        font-weight: bold;
+        font-size: rem(72);
+        line-height: rem(80);
+        letter-spacing: rem(-2);
+        text-transform: capitalize;
+        margin: 25px 0;
+    }
+    &__left__text__bot {
+        width: 83%;
+        color: $darkGrey;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    &__left__button {
+        @include button2;
+    }
+    &__right {
+        width: calc(50% - 15px);
+    }
+    &__right__img {
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+}
