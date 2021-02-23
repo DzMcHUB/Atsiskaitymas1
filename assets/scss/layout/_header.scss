@@ -18,6 +18,9 @@
         margin: 0;
         padding: 0;
         justify-content: center;
+        @media (max-width: 991px) {
+            display: none;
+        }
     }
     &__list__item {
         margin-left: 80px;
@@ -32,7 +35,19 @@
         line-height: rem(32);
         padding: 5px;
     }
-    .header-nav__button {
+    &__button {
         @include button1;
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+    &__burger {
+        display: none;
+        border: 1px solid rgba(17, 17, 17, 0.303074);
+        border-radius: 4px;
+        padding: 15px 13px;
+        @media (max-width: 991px) {
+            display: inline-block;
+        }
     }
 }
