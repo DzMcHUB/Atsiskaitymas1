@@ -351,10 +351,6 @@ template {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
